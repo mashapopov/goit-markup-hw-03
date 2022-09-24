@@ -188,6 +188,9 @@ ul {
     display: flex;
     
 }
+.property-item{
+    width: 270px;
+}
 .property-item:not(:last-child){
     margin-right: 30px;
 }
@@ -218,10 +221,10 @@ ul {
     color:var(--primary-text-color);
     margin-bottom: 50px;
     }
-
+.work
+{ padding-bottom: 94px;}
     .work-list{
         display: flex;
-        margin-bottom: 94px;
     }
     .work-item:not(:last-child){
         margin-right: 32px;
@@ -262,8 +265,7 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    margin-top: 30px;
-    margin-bottom: 10px;
+    
   }
   .team-item-text{
     font-size: 16px;
@@ -271,9 +273,12 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titl-text-color);
-    margin-bottom: 30px;
+    padding-top: 10px;
   }
-
+.team-dop{
+    padding: 30px 0;
+   
+}
 /* ----------------футер-подвал ------------------*/
 .footer-mail, .footer-tel{
     font-style: normal;
@@ -308,6 +313,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .footer-link:hover, .footer-link:focus
 {color: var(--accent-color);}
@@ -352,8 +358,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
-margin: 0 24px;
-margin-top: 20px;
+
 
 }
 .photo-text{
@@ -361,8 +366,7 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--titl-text-color);
-margin: 0 24px;
-margin-bottom: 20px;
+
 }
 .photo{
 display: flex;
@@ -375,6 +379,9 @@ flex-wrap: wrap;
    margin-bottom: 30px;
  outline: 1px solid #eee; 
  /* border-bottom:1px solid #eee ; */
+}
+.photo-dop{
+padding: 20px 24px;
 }
 .photo-item:nth-child(3n){
     margin-right: 0;
